@@ -1,0 +1,117 @@
+.title-container { 
+  background-image: url("./assets/images/Gamer-Setup-Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px;
+  margin: 0px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title { 
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+  font-family: "comic sans";
+  padding-top: 600px;
+}
+
+#main-desc { 
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px
+}
+
+.aboutme-container { 
+  background-color: #000;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+#aboutme-main-img { 
+  height: 500px;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+
+.aboutme-text { 
+  font-family: "comic sans", "sans serif";
+}
+
+.aboutme-desc { 
+  font-family: 'Roboto Slab', serif;
+}
+
+.resume-container { 
+  background-color: #373737;
+  
+  background-image: url("./assets/images/dark-notepad.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.resume-heading { 
+  font-family: "comic sans";
+  font-size: 80px;
+  color:white;
+  margin-bottom: 40px;
+  margin-top: 200px;
+}
+
+div.resume-container li { 
+  font-family: 'Roboto Slab', serif;
+  color:white;
+  font-size: 30px;
+
+}
+
+.contactme-container { 
+  background-color: #373737;
+  
+  background-image: url("./assets/images/monitor-contact-me.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+@media (max-width: 479px) { 
+
+}
+
+@media (min-width: 480px) and (max-width: 1199px) { 
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) { 
+  .resume-container { 
+    background-size: contain;
+  }
+
+  .contactme-container { 
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1400px) { 
+  .resume-container { 
+    background-size: contain;
+  }
+
+  .contactme-container { 
+    background-size: contain;
+  }
+}
